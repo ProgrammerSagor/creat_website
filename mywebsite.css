@@ -1,0 +1,542 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-image:url(/image/web-design.jpg);
+    width: 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+}
+
+nav{
+    display: flex;
+    padding: 3% 5%;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(70, 47, 47);
+    height: 0px;
+}
+
+nav h2{
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.nav-mwnu{
+    flex: 1;
+    text-align: right;
+   
+}
+
+.nav-menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 12px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.nav-menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+
+}
+
+.nav-menu ul li::after{
+    content: '';
+    width: 0px;
+    height: 3px;
+    background: rgb(255, 250, 250);
+    display: block;
+    margin: auto;
+    position: absolute;
+    bottom: -5px;
+    transition: .5s;
+}
+
+.nav-menu ul li:hover::after{
+    width: 100%;
+}
+
+.profile-image{
+    width: 23.9%;
+    position: absolute;
+    top: 107px;
+    left: 60%;
+}
+
+.titlediscription{
+    width: 400px;
+    height: 318px;
+    margin-top: 145px;
+    margin-left: 200px;
+    color: white;
+    position: absolute;
+}
+
+.titlediscription h1{
+    font-family: arial;
+    font-size: 24px;
+}
+
+.titlediscription p{
+    margin-top: 26px;
+    font-family: sans-serif;
+    color: rgb(125, 129, 133);
+    margin-bottom: 20px;
+}
+
+.titlediscription a{
+    border: 2px solid black;
+    background-color: bisque;
+    color: tomato;
+    border-radius: 10px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.titlediscription a:hover{
+    background: white;
+    color: black;
+    font-weight: bolder;
+}
+
+.work{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    
+}
+
+.image-raw {
+   position: absolute;
+   width: 300px;
+   height: 380px;
+   border: 1px solid white;
+   border-radius: 15px;
+   background: tomato;
+   margin-left: 980px;
+   box-shadow: 24px -16px teal;
+
+}
+
+#pera{
+    width: 790px;
+    height: 250px;
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 5em;
+    grid-row-gap: 1em;
+}
+
+#pera span{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#pera p{
+    font-size: 22px;
+}
+
+#pera a{
+    width: 165px;
+    height: 25px;
+    background: orangered;
+    color: azure;
+    border: 3px solid orangered;
+    border-radius: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-top: 10px;
+    margin-left: 68px;
+}
+
+#pera a:hover{
+    background: black;
+    color: azure;
+    font-weight: bolder;
+    transition: .5s;
+}
+
+.heading{
+    width: 100%;
+    height: 60px;
+    margin-top: 250px;
+}
+
+.heading h1{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.heading p{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 23px;
+}
+
+.container{
+display: flex;
+margin-top: 200px;
+flex-direction: row;
+justify-content: space-around;
+}
+
+
+.container div{
+padding: 20px;
+width: 350px;
+height: 325px;
+margin-bottom: 150px;
+border: 5px solid white;
+border-radius: 18px;
+background: rgb(173, 172, 172);
+}
+
+
+.container .child1{
+text-align: center
+}
+
+
+
+.container .child2{
+    text-align: center
+}
+
+
+.container .child3{
+    text-align: center
+}
+
+.container .child1 .square{
+    width: 55px;
+    height: 55px;
+}
+.container .child2 .square{
+    width: 55px;
+    height: 55px;
+}
+.container .child3 .square{
+    width: 55px;
+    height: 55px;
+}
+
+.container .child1 .ami img{
+    width: 55px;
+    height: 55px;
+
+}
+.container .child3 .ami img{
+    width: 55px;
+    height: 55px;
+
+}
+.container .child2 .ami img{
+    width: 55px;
+    height: 55px;
+
+}
+
+.container .child1 .ami img:hover{
+    background: rgb(196, 34, 34);
+    transition: .5s;
+}
+.container .child2 .ami img:hover{
+    background: rgb(196, 34, 34);
+    transition: .5s;
+}
+.container .child3 .ami img:hover{
+    background: rgb(196, 34, 34);
+    transition: .5s;
+}
+
+.home {
+    background-image: url(/image/home2.jpg);
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    
+}
+
+.home .night img {
+margin-left: auto;
+margin-right: auto;
+margin-top: 100px;
+display: block;
+}
+
+.home .heading3{
+text-align: center;
+}
+
+.home .lekha{
+    text-align: center;
+}
+
+.home img:hover{
+    background:rgb(197, 111, 111);
+}
+
+.heading5{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.peragraph{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+
+
+/* gridbox desing */
+
+.conteinar5{
+    margin-top: 100px;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-gap: 10px;
+        padding: 25px;
+   margin-left: 30px;
+}
+
+.conteinar5 .boys{
+    border: 3px solid red;
+    width: 480px;
+    height: 250px;
+    border-radius: 10px;
+    margin-left: 54px;
+    padding: 20px;
+    background: white;
+}
+
+/* percent */
+
+.conteinar5 .boys .percent{
+    width: 100%;
+    background-color: gray;
+    border:4px solid black;
+    margin-top: 100px;
+
+}
+
+.conteinar5 .boys .percent  .skillset{
+    color: #fff;
+    padding-left: 2;
+    padding-top: 1;
+    padding-bottom: 2;
+    text-align: right;
+    border: 4px gray solid;
+    border-right: none;
+    font-weight: bold;
+}
+
+.conteinar5 .boys .percent .mysql{
+    width: 85%;
+    background-color: red;
+    
+}
+
+
+/* center */
+.real {
+    font-size: 30px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.graphic{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.garo{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.garo2{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+
+/* flex */
+
+.containerx{
+    width: 100%;
+    height: 330px;
+    background-color: rgb(240, 230, 230);
+    display: flex;
+    justify-content:space-evenly;
+    margin-bottom: 200px;
+
+}
+
+
+.containerx .childx {
+    width: 300px;
+    height: 250px;
+    border: 5px solid rgb(131, 126, 126);
+    align-items: center;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;  
+    border-radius: 15px;
+    background: rgb(212, 230, 170);
+} 
+.containerx .childx img{
+    width: 50px;
+    height: 50px; 
+} 
+
+.xray{
+    text-align: center;
+}
+
+.rap{
+    text-align: center;
+   font-size: 20px;
+   margin-bottom: 40px;
+}
+
+
+/* photo gellery */
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 325px;
+    justify-content: center;
+    margin-bottom: 300px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+    box-shadow: 5px 10px #888888;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+
+
+
+  /* search_bar */
+  #search_bar input{
+    width: 200px;
+    height: 50px;
+    background: rgb(107, 109, 231);
+  }
+
+  .ecademy {
+    text-align: center;
+    margin-bottom: 40px
+  }
+
+  .ecademy1{
+    text-align: center;
+    margin-bottom: 100px;
+  }
+
+  .wpforms-field-large{
+    justify-content: center;
+    align-items: center;
+    width: 460px;
+    height: 60px;
+    margin-left: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    margin-right: auto;
+    display: block;
+  }
+
+
+  .subscribe1{margin-bottom: 150px;}
+
+
+.subscribe1 .subscribe {
+    border: 2px solid black;
+    background-color: bisque;
+    color: tomato;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    margin-left: 655px;
+}
+
+.subscribe1 .subscribe:hover{
+    background: black;
+    color: white;
+    font-weight: bolder;
+    border: 5px solid black;
+    pad: 10px;
+    
+}
+    
+.coppy{
+    width: 100%;
+    height: 354px;
+    background-color: rgb(55, 55, 211);
+}
+
+
+ .coppy .icon1{
+    display: flex;
+    
+   }
+ 
+ .coppy .icon1 a{
+    margin-top: 00px;
+    width: 50px;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+ 
+ } 
+
+ .coppy img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+ }
+
+ .coppy p{
+    color: white;
+    margin-left: 580px;
+ }
+
+ .coppy h1{
+   margin-left: 950px;
+   font-size: 40px;
+   color: white;
+ }
+
+ .coppy .icon1 a:hover{
+    color: red;
+ }

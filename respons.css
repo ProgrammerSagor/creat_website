@@ -1,0 +1,186 @@
+
+/* leptop view */
+/* 
+@media screen and (min-width: 768px){
+	body {
+		color: red;
+	}
+	nav {
+		padding: 7% 5%;
+	   
+	}
+	
+	nav h2 {
+	
+		margin-right: 54px;
+	}
+	
+	.header .nav-menu ul li .margin {
+		margin-right: 341px;
+		margin-top: 6px;
+	}
+	
+	.titlediscription {
+		margin-left: 38px;  
+	}
+	
+	.profile-image {
+		top: 286px;
+		left: 72%;
+	}
+	
+	.header {
+		min-height: 680px;
+	}
+	
+	#pera {
+		width: 752px;
+		grid-template-columns: 1fr 1fr;
+		grid-column-gap: -4em;
+		grid-row-gap: 2em;
+	}
+	
+	.image-raw {
+		display: block;
+		margin-left: 216px;
+		margin-right: auto;
+		margin-bottom: 100px;
+		margin-top: 500px;
+	}
+	
+	.heading h1 {
+		margin-top: 700px;
+	}
+	
+	.conteinar5 {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	
+	
+	.containerx .childx {
+		overflow: auto;
+	}
+	
+	div.gallery {
+		display: grid;
+		margin-bottom: 34px;
+		grid-template-columns: 1fr 1fr;
+		grid-column-gap: 0em;
+		grid-row-gap: 2em;
+		margin-left: auto;
+		margin-right: auto;
+		width: 800px;
+	}
+	
+	.ecademy {
+		margin-top: 500px;
+	}
+	
+	.subscribe1 .subscribe {
+		position: absolute;
+		right: 273px;
+		width: 229px;
+		border: 3px solid #73AD21;
+		padding: 10px;
+		text-align: center;
+	}
+	.coppy h1 {
+		margin-left: 550px;
+		font-size: 26px;
+	}
+	.coppy p {
+		text-align: center;
+	}
+	} */
+
+
+/* mobile view */
+
+@media screen and (max-width:600px), screen and (orientation: landscape){
+nav {
+    padding: 7% 5%;
+   
+}
+
+nav h2 {
+
+    margin-right: 54px;
+}
+
+.header .nav-menu ul li .margin {
+    margin-right: 341px;
+    margin-top: 6px;
+}
+
+.titlediscription {
+    margin-left: 38px;  
+}
+
+.profile-image {
+    top: 286px;
+    left: 72%;
+}
+
+.header {
+	min-height: 680px;
+}
+
+#pera {
+	width: 752px;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: -4em;
+	grid-row-gap: 2em;
+}
+
+.image-raw {
+	display: block;
+	margin-left: 216px;
+	margin-right: auto;
+	margin-bottom: 100px;
+    margin-top: 500px;
+}
+
+.heading h1 {
+	margin-top: 700px;
+}
+
+.conteinar5 {
+	grid-template-columns: repeat(1, 1fr);
+}
+
+
+.containerx .childx {
+	overflow: auto;
+}
+
+div.gallery {
+	display: grid;
+	margin-bottom: 34px;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 0em;
+	grid-row-gap: 2em;
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+}
+
+.ecademy {
+	margin-top: 500px;
+}
+
+.subscribe1 .subscribe {
+	position: absolute;
+	right: 273px;
+	width: 229px;
+	border: 3px solid #73AD21;
+	padding: 10px;
+	text-align: center;
+}
+.coppy h1 {
+	margin-left: 550px;
+	font-size: 26px;
+}
+.coppy p {
+	text-align: center;
+}
+}

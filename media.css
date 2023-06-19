@@ -1,0 +1,117 @@
+@media screen and (max-width:600px){
+    nav {
+        padding: 20% 5%;}
+
+        nav h2 {
+            font-size: 61px;
+        }
+
+    .titlediscription {
+            width: 224px;
+            height: 318px;
+            margin-top: 58px;
+            margin-left: 13px;
+        }
+
+        .profile-image {
+            width: 46.9%;
+            top: 323px;
+            left: 54%;
+        }
+
+        #pera a {
+            margin-top: 300px;
+        } 
+        
+        #pera {
+            width: 752px;
+            grid-template-columns: 1fr 1fr;
+            grid-column-gap: -4em;
+            grid-row-gap: 2em;
+        }
+        #pera {
+            width: 312px;
+            display: block;
+        }
+
+        .image-raw {
+            height: 698px;}
+
+         #pera span {
+                font-size: 22px;
+                margin-bottom: 200px;
+            }    
+            
+            .heading h1 {
+                margin-top: 440px;
+            }
+
+            
+            .image-raw {
+                height: 363px;
+                margin-top: -381px;
+                margin-left: 42px;
+            }
+
+        .work {
+                margin-bottom: 461px;
+            }
+
+            #pera p {
+                margin-bottom: 36px;
+            }
+
+            #pera a {
+                margin-left: 98px;
+            }
+
+            .container {
+                display: grid;
+                margin-top: 111px;
+                justify-content: center;
+            }
+
+            .conteinar5 {
+                margin-top: -5px;
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                grid-gap: 38px;
+                padding: 25px;
+                margin-left: -54px;
+            }
+            .conteinar5 .boys {
+                width: 319px;
+                height: 246px;
+            }
+            .containerx {
+                display: grid;
+                justify-content: center;
+                grid-gap: 10px;
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+}
